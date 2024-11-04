@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // API
 
-    const KEY = "5b30504f05b9e96bd046e049fe4976a1";
+    const KEY = "API key";
     getWeatherBtn.addEventListener('click', async () => {
         let city = cityInput.value.toLowerCase().trim();
         if (!city) return;
